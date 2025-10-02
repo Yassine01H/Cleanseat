@@ -1,5 +1,4 @@
 // components/Footer.tsx
-import { FaFacebook, FaInstagram, FaYoutube, FaWhatsapp } from "react-icons/fa";
 
 export default function Footer() {
   return (
@@ -97,41 +96,7 @@ export default function Footer() {
           </ul>
         </div>
 
-        {/* Social Media + Button rechts */}
-        <div className="flex flex-col items-start md:items-end gap-6">
-          <div>
-            <h4 className="font-semibold text-white text-lg mb-4 relative after:content-[''] after:block after:w-10 after:h-[3px] after:bg-white after:rounded-full after:mt-1">
-              Folgen Sie uns
-            </h4>
-            <div className="flex gap-5 text-2xl">
-              <a
-                href="#"
-                className="hover:scale-110 transition transform text-white hover:text-blue-500 drop-shadow-lg"
-              >
-                <FaFacebook />
-              </a>
-              <a
-                href="#"
-                className="hover:scale-110 transition transform text-white hover:text-pink-500 drop-shadow-lg"
-              >
-                <FaInstagram />
-              </a>
-              <a
-                href="#"
-                className="hover:scale-110 transition transform text-white hover:text-red-500 drop-shadow-lg"
-              >
-                <FaYoutube />
-              </a>
-              <a
-                href="#"
-                className="hover:scale-110 transition transform text-white hover:text-green-500 drop-shadow-lg"
-              >
-                <FaWhatsapp />
-              </a>
-            </div>
-          </div>
-
-          {/* CTA Button Rechts */}
+       
 <a
   href="/ReinigungBuchen"
   className="inline-block px-8 py-3 bg-gradient-to-r from-[#002b5c] to-[#004080] text-white font-bold rounded-xl shadow-[0_5px_0px_rgba(0,0,0,0.3)] hover:translate-y-[-2px] hover:shadow-[0_8px_0px_rgba(0,0,0,0.3)] active:translate-y-[2px] transition-all duration-300"
