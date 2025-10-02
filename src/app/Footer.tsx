@@ -1,4 +1,4 @@
-// components/Footer.tsx
+// components/Footer.tsximport { FaFacebook, FaInstagram, FaYoutube, FaWhatsapp } from "react-icons/fa";
 
 export default function Footer() {
   return (
@@ -96,7 +96,11 @@ export default function Footer() {
           </ul>
         </div>
 
-       
+        {/* Social Media + Button rechts */}
+        <div className="flex flex-col items-start md:items-end gap-6">
+      
+
+          {/* CTA Button Rechts */}
 <a
   href="/ReinigungBuchen"
   className="inline-block px-8 py-3 bg-gradient-to-r from-[#002b5c] to-[#004080] text-white font-bold rounded-xl shadow-[0_5px_0px_rgba(0,0,0,0.3)] hover:translate-y-[-2px] hover:shadow-[0_8px_0px_rgba(0,0,0,0.3)] active:translate-y-[2px] transition-all duration-300"
